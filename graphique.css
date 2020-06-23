@@ -1,0 +1,163 @@
+* {
+  font-family: Arial, helvetica, sans-serif;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(to right, blue 0%, white 33%, red 75%);
+}
+
+h1,
+h2,
+h3 {
+  color: gold;
+  font-size: x-large;
+}
+
+header {
+  background-image: url(https://thumbs.gfycat.com/TightImmediateGrackle-size_restricted.gif);
+  width: 100%;
+  height: 10%;
+  background-size: cover;
+  margin: 0;
+  z-index: 1;
+}
+.tpresent {
+  background-image: -webkit-linear-gradient(gold 50%, red 50%);
+  background-repeat: infinite;
+  background-position: 0 0;
+  background-size: 80% 50px;
+  text-align: center;
+  white-space: nowrap;
+  font-size: 100px;
+  left: 55%;
+  top: 66%;
+  z-index: 3;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-animation: mass 5s linear infinite;
+}
+
+@-webkit-keyframes mass {
+  100% {
+    background-position: 0 -50%;
+  }
+}
+/*compétence métier*/
+
+section {
+  text-align: center;
+  width: 90%;
+  height: 80%;
+}
+
+.note {
+  direction: rtl;
+  margin-left: 0;
+}
+.note a {
+  color: #aaa;
+  text-decoration: none;
+  font-size: 50px;
+  margin-left: 0;
+}
+.note a:hover,
+.note a:focus,
+.note a:hover ~ a,
+.note a:focus ~ a {
+  color: orange;
+  cursor: pointer;
+  margin-left: 0;
+}
+
+/*compétences techniques*/
+
+.get {
+  display: none;
+}
+
+#diagT {
+  float: left;
+  width: 600px;
+  height: 600px;
+}
+/*compétences humaines*/
+
+#comp3 {
+  text-align: left;
+  margin-left: 45%;
+}
+
+#comp3 .barre {
+  top: 0%;
+}
+
+.barre {
+  position: relative;
+  width: 50%;
+  text-align: center;
+  left: 20%;
+  bottom: 10%;
+}
+
+.record1 /*, .record2, .record3, .record4, .record5, .record6, .record7*/ {
+  float: left;
+  width: 100%;
+  border: 1px solid black;
+  background-color: #f0f0f0;
+  margin-bottom: 2px;
+}
+
+.bar {
+  background: transparent url(gradient.png) repeat-x top left;
+  float: left;
+  clear: left;
+  height: 5%;
+}
+
+.bar p {
+  font-size: 12px;
+  font-weight: bold;
+  color: blue;
+  float: left;
+  margin-left: 5px;
+  margin-top: 7px;
+}
+
+.pourcentage {
+  padding-top: 3px;
+  float: right;
+  color: blue;
+  clear: right;
+  font-size: 12px;
+  font-weight: bold;
+  height: 25px;
+}
+
+.pourcentage p {
+  font-size: 12px;
+  font-weight: bold;
+  float: left;
+  margin-right: 5px;
+  margin-top: 5px;
+}
+
+footer {
+  background-image: url(http://resize.over-blog.com/400x260-ct.gif?http://idata.over-blog.com/2/05/20/60//263736422-copie-1.gif);
+  width: 100%;
+  height: 300px;
+  left: 10%;
+}
+
+footer h2 {
+  text-align: left;
+  bottom: 50%;
+}
+footer div {
+  text-align: left;
+  bottom: 50%;
+  color: gold;
+  font-size: 30px;
+  font-weight: bold;
+}

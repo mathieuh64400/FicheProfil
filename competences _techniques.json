@@ -1,0 +1,85 @@
+[
+    {
+         
+        "competences": "html_css",
+        "evaluer": "compris",
+        "dupliquer": "compris",
+        "analyser": "moyennement_compris",
+        "comprendre": "moyennement_compris",
+        "concevoir": "moyennement_compris",
+        "inventer": "non_compris"    
+       
+    },
+    {
+        "competences": "javascript",
+        "evaluer": "compris",
+        "dupliquer": "moyennement_compris",
+        "analyser": "moyennement_compris",
+        "comprendre": "moyennement_compris",
+        "concevoir": "moyennement_compris",
+        "inventer": "non_compris"     
+    },
+    {   "competences": "php",
+        "evaluer": "non_compris",
+        "dupliquer": "non_compris",
+        "analyser": "non_compris",
+        "comprendre": "non_compris",
+        "concevoir": "non_compris",
+        "inventer": "non_compris"
+        
+        
+    },
+    {
+         "competences": "mysql",
+        "evaluer": "non_compris",
+        "dupliquer": "non_compris",
+        "analyser": "non_compris",
+        "comprendre": "non_compris",
+        "concevoir": "non_compris",
+        "inventer": "non_compris"
+       
+        
+    },
+    {
+        "competences": "symfony",
+        "evaluer": "non_compris",
+        "dupliquer": "non_compris",
+        "analyser": null,
+        "comprendre": "non_compris",
+        "concevoir": "non_compris",
+        "inventer": "non_compris"
+        
+        
+    },
+    {
+        "competences": "react",
+        "evaluer": "non_compris",
+        "dupliquer": "non_compris",
+        "analyser": "non_compris",
+        "comprendre": "non_compris",
+        "concevoir": "non_compris",
+        "inventer": "non_compris"
+        
+        
+    },
+    {
+        "competences": "angular",
+        "evaluer": "non_compris",
+        "dupliquer": "non_compris",
+        "analyser": "non_compris",
+        "comprendre": "non_compris",
+        "concevoir": "non_compris",
+        "inventer": "non_compris"
+    },
+    {
+        "competences": "nodejs",
+        "evaluer": "non_compris",
+        "dupliquer": "non_compris",
+        "analyser": "non_compris",
+        "comprendre": "non_compris",
+        "concevoir": "non_compris",
+        "inventer": "non_compris"
+        
+      
+    }
+]

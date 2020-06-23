@@ -1,0 +1,231 @@
+body{
+	background-color: #A63535;
+	width:100%;
+	height:100%;
+	/* overflow-x: hidden; */
+	color: #3D3434;
+}
+#tete{
+	display:flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	margin: 5%;
+	text-align: center;
+}
+h1{ 
+
+   font-size: 5em;
+   font-weight: bold;
+   color: #3D3434;
+  }
+  #cadrespe{
+  	width: 5%;
+  	height: 20%;
+  	background-color: #CF6565;
+	padding: 25%;
+	margin-left: 10%;  
+  }
+  #profil{
+  	font-size: 2em;
+  	font-weight:thin;
+  	text-decoration: underline;
+  	
+  }
+ .trait{
+ 	color:#3D3434;
+ 	font-weight: bold;
+ 	margin-left: 40%;
+
+ }
+ nav{
+ 	background-color: #CF6565;
+ 	width:20%;
+ 	
+ }
+ nav a{
+ 	color:#3D3434;
+ 	display: block;
+ 	padding: 10%;
+ 	text-decoration: none;
+ 	font-size:1.5em;
+        }
+ nav a:hover{ 
+ 	        color: #A63535;
+             }
+nav div{
+	margin-top: 2%;
+	font-size: 2em;
+	text-decoration: underline;
+}
+
+@-webkit-keyframes defilement{
+	0% {
+		transform: translate3d(0,0,0);} 
+	100%{
+		transform: translate3d(-130%,0,0);
+	}
+}
+#barredephr{width: 150%;
+	   height: 3%;
+	   margin-left: -5%;
+       background-color: #CF6565;
+       margin-top: 10%;
+}
+#phrase{
+	font-size: 1.5em;
+	font-weight: bold;
+   padding-left: 100%;
+   white-space: nowrap;
+   animation: defilement 20s linear infinite;
+}
+
+article{
+	margin: 5%;
+	text-align: center;
+}
+h2{
+	font-size:3em;
+	text-decoration:underline;
+}
+
+#rep{
+	display:flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-items: center;
+}
+#cadre{
+	background-color: #CF6565;
+	width: 120%;
+	margin-left: -10%;
+	margin-top:5%;
+	margin-bottom: 5%;
+}
+table{
+	margin-top:5%;
+	margin-bottom: 5%;
+}
+caption{
+	font-size:3em;
+	text-decoration:underline;
+	margin-bottom: 5%;
+	color: #3D3434;
+}
+#App{
+	font-weight: bold;
+	font-size:1.5em;
+	color: #3D3434;
+}
+
+#rond1 { 
+      width:  1.5em;
+      height: 1.5em;
+      background: #732A2A;
+      border-radius: 50%;
+      margin-left: 25%;
+    }
+#sep{
+	display:flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+}
+
+button{
+	background-color:#732A2A;
+	color:#3D3434;
+	padding: 1.7em 2em; 
+	font-size: 1.5em;
+	font-weight: bold;
+	margin:10%;
+
+}
+#blabala{
+	color:#3D3434;
+	font-size: 2.5em;
+}
+#Chtml{
+	margin-left:10%;
+}
+#php{
+	margin-left:12%;
+	padding:1.7em 3.5em;
+}
+#mysql{
+    margin-left:12%;
+    padding: 1.7em 2.75em;	
+}
+#react{
+	padding: 1.7em 3em;
+}
+#react{
+	padding: 1.7em 3.5em;
+	margin-left: 25%;
+}
+#node{
+	padding: 1.7em 3em;
+	margin-left:12%;
+}
+#ang{
+	padding: 1.7em 3em;
+	margin-left:20%;
+}
+#vue{
+	padding: 1.7em 3em;
+	margin-left:10%;
+}
+#score{
+	font-size: 2em;
+	width: 3.5em;
+	height: 3.5em;
+	border-radius: 50%;
+	background-color: #732A2A;
+	padding-bottom:  -100%;
+	padding-top: 0%;
+	margin-left: 5%;
+	font-weight: bold;
+	display:flex;
+	align-items: center;
+	padding-left: 5%;
+}
+.sociabilité{
+	margin-left: -0.5%;
+}
+.secu{
+	margin-left:2.5%;
+}
+.anglais{
+	margin-left:2%;}
+p{
+	font-size: 1.5em;
+	font-weight: bold;
+
+}
+#recap{
+	font-size:3em;
+	text-decoration:underline;
+	text-align: center;
+}
+h3{
+	margin-left: 10%;
+	padding-top: 5%;
+	font-size: 2.75em;
+	text-decoration: underline;
+}
+#bar1{
+	width: 50%;
+	background-color: #CF6565;
+	height: 100%;
+	text-align: center;
+	margin-top: 2%;
+}
+#barint{
+	width: 0%;
+	height: 100%;
+	background-color:#732A2A;
+	text-align: center;
+	font-size: 1.5em;
+	margin-top: 2%;
+}

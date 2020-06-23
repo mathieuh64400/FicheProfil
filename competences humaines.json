@@ -1,0 +1,55 @@
+[
+    {
+        "id": 1,
+        "score_sur_100": "50",
+        "competences": "fiabilite"
+      
+    },
+    {
+        "id": 2,
+        "score_sur_100": "50",
+        "competences": "curiosite"
+        
+    },
+    {
+        "id": 3,
+        "score_sur_100": "50",
+        "competences": "leader"
+    },
+    {
+        "id": 4,
+        "score_sur_100": "50",
+        "competences": "securite"
+        
+    },
+    {
+        "id": 5,
+        "score_sur_100": "100",
+        "competences": "equipier"
+        
+    },
+    {
+        "id": 6,
+        "score_sur_100": "100",
+        "competences": "adaptabilite"
+        
+    },
+    {
+        "id": 7,
+        "score_sur_100": "50",
+        "competences": "autonomie"
+    
+    },
+    {
+        "id": 8,
+        "score_sur_100": "80",
+        "competences": "sociabilite"
+        
+    },
+    {
+        "id": 9,
+        "score_sur_100": "50",
+        "competences": "anglais"
+        
+    }
+]

@@ -1,0 +1,323 @@
+<html>
+
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://bootswatch.com/4/spacelab/bootstrap.min.css">
+	<link rel="stylesheet" href="fiche_profil.css">
+	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+		integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+		crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+		integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+		crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+		integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+		crossorigin="anonymous"></script>
+	<meta charset="utf-8" />
+
+	<title> Fiche Profil de Mathieu Hédot</title>
+</head>
+
+<body>
+	<header id="tete">
+		<nav>
+			<div style="color:white; ">Menu</div>
+			<a href="#">Compétences Metiers</a>
+			<div class="trait"></div>
+			<a href="#">Compétences techniques</a>
+			<div class="trait"></div>
+			<a href="#">Compétences Humaines</a>
+		</nav>
+		<h1> Fiche Profil <br> de <br> Mathieu Hédot </h1>
+		<div id="cadrespe">
+			<h2 id="profil" style="color:white;">Profil</h2>
+			<div class="overlay">
+				<button id="requete">Coordonnées</button>
+				<div id="donne"></div>
+			</div>
+		</div>
+	</header>
+	<div style="width: 90%; background-color: white;height: 0.2em; margin-left:5%; margin-bottom: 3%;">
+	</div>
+	<br>
+	<section>
+		<div class="row">
+			<h2 style="text-align: center; margin-bottom:5%; margin-left:10%; color: white;"> Information supplémentaire
+			</h2>
+
+		</div>
+
+		<div class="container-fluid" style="margin-left: 0%;">
+			<div class="row">
+				<div class="jumbotron" style="width:66%; height: 10%;">
+					<h3 style="color:black;"> Logo des Organismes de Formation</h2>
+					<div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+					<div class="carousel-inner">
+						<div class="carousel-item active">
+							<img class="d-block w-50" style="margin-left: 25%;" src="images/FABRIQUE-NUMERIQUE-NEW.jpg" alt="First slide">
+						</div>
+						<div class="carousel-item">
+							<img class="d-block w-50" style="margin-left: 25%;" src="images/REGION.png" alt="Second slide">
+						</div>
+						<div class="carousel-item">
+							<img class="d-block w-50" style="margin-left: 25%; " src="images/logopau.png" alt="Third slide">
+						</div>
+					</div>
+					<a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+						<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+						<span class="sr-only">Precedent</span>
+					</a>
+					<a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+						<span class="carousel-control-next-icon" aria-hidden="true"></span>
+						<span class="sr-only">suivant</span>
+					</a>
+					<p style="color:black; text-align: center; margin-top: 5%;">  Merci à eux pour leur participation</p>
+				</div>
+			</div>
+
+			<div>
+				<div id="heure"> Heure:</div>
+				<div style="margin-left: 5%;">
+					<article>
+						<header id="detail" class="row">
+							<p style="color:white;">Referencement des couleurs</p>
+							<img src="images/flechebas.png" class="picto" />
+						</header>
+						<div style="width: 10%;">
+							<table class="table table-danger">
+								<thead>
+									<tr>
+										<th scope="col">Type de couleur</th>
+										<th scope="col"> etat </th>
+
+									</tr>
+								</thead>
+								<tbody>
+									<tr class="table-primary">
+										<th scope="row">
+											<div
+												style="margin-left:50%; width: 2em; height: 1em; background-color:#3D3434;border: black 1px solid;">
+											</div>
+										</th>
+										<td> compris </td>
+
+									</tr>
+									<tr class="table-primary">
+										<th scope="row">
+											<div
+												style="margin-left:50%; width: 2em; height: 1em; background-color:#732A2A;border: black 1px solid;">
+											</div>
+										</th>
+										<td>moyennement_compris</td>
+
+									</tr>
+									<tr class="table-primary">
+										<th scope="row">
+											<div
+												style="margin-left:50%; width: 2em; height: 1em; background-color:#A63535;border: black 1px solid;">
+											</div>
+										</th>
+										<td>non compris </td>
+
+									</tr>
+									<tr class="table-primary">
+										<th scope="row">
+											<div
+												style="margin-left:50%; width: 2em; height: 1em; background-color:white;border: black 1px solid;">
+											</div>
+										</th>
+										<td>pas encore fait</td>
+
+									</tr>
+
+								</tbody>
+							</table>
+
+						</div>
+				</div>
+				</article>
+			</div>
+			<!--
+-->
+		</div>
+		</div>
+		<div style="margin-top:5%; margin-bottom: 3%;">
+			<div id="phrase" style="color:white;">L’objectif de la fiche profil est de présenter les compétences aquises
+				lors de la formation
+			</div>
+		</div>
+		<div style="width: 100%; background-color: white;height: 0.2em; margin-bottom: 5%;">
+		</div>
+	</section>
+	<section>
+		<article class="part1">
+			<h2 id="CompetencesMetiers">Compétences Métiers:</h2>
+			<div id="cadre">
+				<h3 class="titrecentrer"><span id="caption">Front-end</span> & <span id="captionback">Back-end </span>
+				</h3>
+				<div id="rep">
+
+					<div class="amovible">
+
+						<table id=tablefront>
+							<caption> Partie Front-end </caption>
+							<tr id="App">
+								<th></th>
+								<th> Evaluer|</th>
+								<th> Dupliquer|</th>
+								<th> Analyser|</th>
+								<th> Comprendre|</th>
+								<th> Concevoir|</th>
+								<th>Inventer|</th>
+							</tr>
+
+						</table>
+					</div>
+					<div class="amovible">
+						<table id="tableback">
+							<caption> Partie Back-end </caption>
+							<tr id="App">
+								<th></th>
+								<th> Evaluer|</th>
+								<th> Dupliquer|</th>
+								<th> Analyser|</th>
+								<th> Comprendre|</th>
+								<th> Concevoir|</th>
+								<th>Inventer|</th>
+							</tr>
+
+						</table>
+					</div>
+				</div>
+			</div>
+		</article>
+		<article class="part2">
+			<h2 id="CompetencesTech">Compétences Techniques :</h2>
+			<div id="cadre">
+				<div class="cas1">
+					<div class="sep">
+						<button id="Chtml"> HTML/CSS</button>
+						<button id="Javascript">Javascript</button>
+					</div>
+					<div class="sep">
+						<button id="php"> PHP </button>
+						<button id="mysql"> MYSQL </button>
+					</div>
+					<div class="sep"><button id="symfony"> Symfony </button>
+						<button id="ang"> Angular </button>
+
+					</div>
+
+				</div>
+
+				<h3 class="sous"> Niveau en <span id="technique"> PHP:</span></h3>
+				<div style="margin-left: 15%;">
+
+					<div class="row">
+						<div>
+							<p id="note"> Evaluer</p>
+							<p id="star1"></p>
+						</div>
+						<div>
+							<p id="note"> Dupliquer</p>
+							<p id="star2"></p>
+						</div>
+						<div>
+							<p id="note"> Analyser</p>
+							<p id="star3"></p>
+						</div>
+						<!-- </div>
+					<div class="row"> -->
+						<div>
+							<p id="note"> Comprendre</p>
+							<p id="star4"></p>
+						</div>
+						<div>
+							<p id="note"> Concevoir</p>
+							<p id="star5"></p>
+						</div>
+						<div>
+							<p id="note"> Inventer</p>
+							<p id="star6"></p>
+						</div>
+					</div>
+				</div>
+		</article>
+		<article id="art3">
+			<h2 id="CompetenceHum">Compétences Humaines:</h2>
+			<div id="cadre">
+				<div class="position">
+					<div class="sep">
+						<div>
+							<p>Fiabilité</p>
+							<p id="score"> <span class="positionbis" id="fiab"> X</span></p>
+						</div>
+						<div>
+							<p>Curiosité</p>
+							<p id="score"> <span class="positionbis" id="cur"> X</span></p>
+						</div>
+						<div>
+							<p class="auton">autonomie</p>
+							<p id="score"> <span class="positionbis" id="auton"> X</span></p>
+						</div>
+					</div>
+					<div class="sep">
+						<div>
+							<p>Leader</p>
+							<p id="score"> <span class="positionbis" id="lead"> X</span></p>
+						</div>
+						<div>
+							<p>Equipier</p>
+							<p id="score"> <span class="positionbis" id="Equip"> X</span></p>
+						</div>
+						<div>
+							<p class="adap">Adaptabilité</p>
+							<p id="score"> <span class="positionbis" id="adap"> X</span> </p>
+						</div>
+					</div>
+					<div class="sep">
+						<div>
+							<p>Sociabilité</p>
+							<p id="score"><span class="positionbis" id="socia"> X</span></p>
+						</div>
+						<div>
+							<p>Sécurité</p>
+							<p id="score"> <span class="positionbis" id="secu"> X</span></p>
+						</div>
+						<div>
+							<p>Anglais</p>
+							<p id="score"> <span class="positionbis" id="angl"> X</span></p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</article>
+	</section>
+	<div style="width: 90%; background-color: white;height: 0.2em; margin-left:5%; margin-bottom: 3%;">
+	</div>
+	<br>
+	<footer>
+		<h2 id="recap">Recapitulatif</h2>
+		<div>
+			<h3> Competences Métiers </h3>
+			<div id="bar1">
+				<div id="barint1">0%</div>
+			</div>
+		</div>
+		<div>
+			<h3> Competences Techniques </h3>
+			<div id="bar2">
+				<div id="barint2">0%</div>
+			</div>
+		</div>
+		<div>
+			<h3> Competences Humaines </h3>
+			<div id="bar3">
+				<div id="barint3">0%</div>
+			</div>
+		</div>
+	</footer>
+	<script src="./ficheProfil.js"></script>
+</body>
+
+</html>

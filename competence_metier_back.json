@@ -1,0 +1,50 @@
+[
+    {
+        "id": 5,
+        "evaluer": null,
+        "dupliquer": "pas_compris",
+        "analyser": "pas_compris",
+        "comprendre": "pas_compris",
+        "concevoir": "pas_compris",
+        "inventer": "pas_compris",
+        "competences": "creer une base de donnees",
+        "type_de_competences": "back_end"
+        
+    },
+    {
+        "id": 6,
+        "evaluer": "compris",
+        "dupliquer": "pas_compris",
+        "analyser": "pas_compris",
+        "comprendre": "pas_compris",
+        "concevoir": "pas_compris",
+        "inventer": "pas_compris",
+        "competences": "developper les composants d acces aux donnees",
+        "type_de_competences": "back_end"
+
+    },
+    {
+        "id": 7,
+        "evaluer": "pas_compris",
+        "dupliquer": "pas_compris",
+        "analyser": "pas_compris",
+        "comprendre": "pas_compris",
+        "concevoir": "pas_compris",
+        "inventer": "pas_compris",
+        "competences": "developper la partie back end d une application web et web_mobile",
+        "type_de_competences": "back_end"
+        
+    },
+    {
+        "id": 8,
+        "evaluer": "pas_compris",
+        "dupliquer": "pas_compris",
+        "analyser": "pas_compris",
+        "comprendre": "pas_compris",
+        "concevoir": "pas_compris",
+        "inventer": "pas_compris",
+        "competences": "elaboration de composants dans une application de gestion de contenu",
+        "type_de_competences": "back_end"
+
+    }
+]   

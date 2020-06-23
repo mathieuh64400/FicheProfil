@@ -1,0 +1,49 @@
+[
+    {
+        "id": 1,
+        "evaluer": "compris",
+        "dupliquer": "compris",
+        "analyser": "moyennement_compris",
+        "comprendre": "compris",
+        "concevoir": "pas_compris",
+        "inventer": "pas_compris",
+        "competences": "maquetter une application",
+        "type_de_competences": "front_end"
+        
+    },
+    {
+        "id": 2,
+        "evaluer": "pas_compris",
+        "dupliquer": "pas_compris",
+        "analyser": "pas_compris",
+        "comprendre": "pas_compris",
+        "concevoir": "pas_compris",
+        "inventer": "pas_compris",
+        "competences": "developper une interface statique web et web_mobile",
+        "type_de_competences": "front_end"
+        
+    },
+    {
+        "id": 3,
+        "evaluer": "pas_compris",
+        "dupliquer": "pas_compris",
+        "analyser": "pas_compris",
+        "comprendre": "pas_compris",
+        "concevoir": "pas_compris",
+        "inventer": "pas_compris",
+        "competences": "developper une interface web dynamique et web_mobile",
+        "type_de_competences": "front_end"
+     
+    },
+    {
+        "id": 4,
+        "evaluer": "moyennement_compris",
+        "dupliquer": "pas_compris",
+        "analyser": "pas_compris",
+        "comprendre": "pas_compris",
+        "concevoir": "pas_compris",
+        "inventer": "pas_compris",
+        "competences": "elaborer un cms",
+        "type_de_competences": "front_end"
+        
+    }]

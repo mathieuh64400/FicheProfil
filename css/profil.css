@@ -1,0 +1,96 @@
+body
+{
+margin: 0;
+padding: 0;
+background-color: salmon;}
+#page{ font-family: Arial, Helvetica, sans-sérif;
+       width:1200px;
+       height: 1400px; 
+       margin:0;
+       padding: 0;
+       color: black;
+       } 
+ .cont{ display:block;
+            margin: 10px;
+            width:100%; 
+            position:relative;
+            table-layout:fixed;
+        }
+.cont .defil{ display: block;
+             -webkit-animation: linear marqueelike 20s infinite;
+             margin-left: -80%;
+             text-align: left;
+             height:20px; }
+.defil:after{ content:attr(data-text);
+                    position: absolute;
+                     white-space:nowrap;
+                     padding-left:10px;  }
+
+ @-webkit-keyframes marqueelike {
+   0%, 100% {margin-left:0;}
+    99.99% {margin-left:-80%;} }
+
+       h1{ text-align: center;
+          font-size: xX-large;
+        text-decoration: underline;
+        font-weight: bold;}
+
+#index{ 
+        text-align: center;
+        font-size: 15px;
+        text-decoration: underline;
+     }
+ ul{ list-style: none;}
+#pres{  text-align: center;}
+ #col1{ background-color: blue;
+    width: 5px;
+    height: 15px;}
+ #col2{ background-color: white;
+    width: 5px;
+    height: 15px; }
+#col3 {background-color: red;
+    width: 5px;
+    height: 15px;}
+
+#metier{ margin-top: 10px;
+        text-align: left;
+         }
+
+thead
+{ background-color: springgreen;}
+table{ width: 100%;}
+
+
+.front{
+        border-collapse: collapse; 
+    margin-bottom: auto;
+margin-left: 25px;}
+.front td, .front thead, .front tr, .front tbody, .front th
+    {
+        border: 1px solid black;
+    }
+.back{border-collapse: collapse;
+  margin-top: 25px;
+  margin-left: 25px;
+ }
+.back td, .back thead, .back tr, .back tbody, .back th
+{
+    border: 1px solid black;
+}
+#techno{ border-collapse: collapse;
+margin-left: 25px;}
+
+#techno td, #techno thead, #techno tr, #techno tbody, #techno th
+    {
+        border: 1px solid black;
+    }
+#hum { border-collapse: collapse;
+margin-left: 25px; }
+
+#hum td, #hum thead, #hum tr, #hum tbody, #hum th
+    {
+        border: 1px solid black;
+    }
+
+.A{background-color: blue;}
+    

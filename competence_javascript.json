@@ -1,0 +1,12 @@
+[
+    {
+        "competences": "javascript",
+        "evaluer": "compris",
+        "dupliquer": "compris",
+        "analyser": "moyennement_compris",
+        "comprendre": "moyennement_compris",
+        "concevoir": "moyennement_compris",
+        "inventer": "non_compris"     
+    }
+
+]
